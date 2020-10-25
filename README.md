@@ -25,5 +25,5 @@ For each of these application contexts, four datasets have been analysed and com
 - Non-standardized with variables dropping
 
 After a preprocessing phase, the overfitting and the multicollinearity problem have been analysed, trying to improve the ridge regression results.
-The dependence of the cross-validated risk estimate on the regularization term has been analysed and then, with nested cross validation, the hyperparameter $ \alpha $ has been tuned. 
+The dependence of the cross-validated risk estimate on the regularization term has been analysed and then, with nested cross validation, the hyperparameter alpha has been tuned. 
 Finally, dimensionality reduction (PCA) has been added to the best experiment, in order to improve the risk estimate.
