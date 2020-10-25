@@ -7,16 +7,16 @@ in order to find the best predictor in every context of application.
 
 ## Project structure
 The project has been structured as follows:
-- Dataset preprocessing
+- Dataset preprocessing: `dataset_fixing.py`
 - Ridge regression algorithm implementation
 - Predictors comparison in different settings:
-  - Simple ridge regression
-  - Ridge regression with saturated values removal
-  - Ridge regression with outliers removal
-  - Ridge regression with k-folds cross validation
-  - Ridge regression with cross validated risk estimate analysis with respect to the ridge parameter alpha
-  - Ridge regression with nested cross validation
-  - Ridge regression with outliers removal, nested cross validation and PCA
+  - Simple ridge regression: `regression.py`
+  - Ridge regression with saturated values removal: `regression_ceiling.py`
+  - Ridge regression with outliers removal: `regression_outliers.py`
+  - Ridge regression with k-folds cross validation: `regression_CV.py`
+  - Ridge regression with cross validated risk estimate analysis with respect to the ridge parameter alpha: `regression_CV_alpha.py`
+  - Ridge regression with nested cross validation: `regression_CV.py`
+  - Ridge regression with outliers removal, nested cross validation and PCA: `regression_CV_PCA.py`
 
 For each of these application contexts, four datasets have been analysed and compared:
 - Standardized
