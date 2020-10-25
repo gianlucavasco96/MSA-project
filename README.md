@@ -8,7 +8,7 @@ in order to find the best predictor in every context of application.
 ## Project structure
 The project has been structured as follows:
 - Dataset preprocessing: `dataset_fixing.py`
-- Ridge regression algorithm implementation
+- Ridge regression algorithm implementation: `functions.py`
 - Predictors comparison in different settings:
   - Simple ridge regression: `regression.py`
   - Ridge regression with saturated values removal: `regression_ceiling.py`
